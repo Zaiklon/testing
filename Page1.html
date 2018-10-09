@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Page2.css">
+  <title>Task</title>
+
+  <body>
+    <div class="container">
+      <ul class="navbar">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Hotels Availability</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Book</a>
+        </li>
+      </ul>
+
+      <div class="welcome">
+        <h3>Welcome</h3>
+        <h1> Hotels Availability </h1>
+      </div>
+
+      <div>
+        <div class="check-in">
+          <label for="checkin">Check In</label>
+          <input type="date" id="checkin" name="bday">
+        </div>
+
+
+        <div class="check-out">
+          <label for="checkout">Check Out</label>
+          <input id="checkyout" type="date" name="bday">
+
+        </div>
+
+        <button id="hotel-name2" type="button" class="search" placeholder="hotel-name2" onclick="search2()">Search</button>
+      </div>
+
+
+      <br>
+      <br>
+      <div id="Zakaria"> Sort By :
+        <select id="sort" name="sort">
+          <option value="name">Name</option>
+          <option value="price">Price</option>
+          <option value="rate">Rate</option>
+        </select>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <input id='hotel-name' type="text" placeholder="Hotel Name">
+        <button id="filter-name-btn" onclick="searchByName()">Search By Name</button>
+      </div>
+
+        <br>
+        <br>
+        <div>
+        <table id="table" class="hotels">
+          <br>
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Rate</th>
+          </tr>
+          <tr id="tr">
+          </tr>
+      </div>
+      </div>
+      </div>
+      <script src="Page3.js"></script>
+
+  </body>
+
+</html>
+</body>
+
+</html>

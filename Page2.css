@@ -1,0 +1,207 @@
+table {
+  border-collapse: collapse;
+  
+}
+table, th, td {
+ border: 2px solid white;
+color: white;
+
+}
+th {
+height: 40px;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+* {
+  
+}
+
+body {
+
+background-color: white;
+background-size:16px 16px;
+margin: 0;
+}
+
+.container {
+width: 100%;
+height: 100%;
+padding-bottom: 100px;
+background-image:url("xxxxx.jpg");
+background-size: cover;
+background-repeat: no-repeat
+}
+
+.container {
+display: flex;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+.welcome{
+display: flex;
+align-items: center;
+flex-direction: column;
+color: #fff;
+margin-top: 40px;
+}
+
+.welcome h3 {
+font-size: 20px;
+margin-bottom: -25px;
+}
+
+.welcome h1 {
+font-size: 50px;
+}
+
+.navbar {
+display: flex;
+justify-content: center; 
+margin: 30px 0; 
+}
+
+ul {
+list-style-type: none; 
+}
+
+.navbar li a {
+text-decoration: none;
+color: #fff;
+font-size: 16px;
+margin: 30px;
+transition: 200ms;
+transition: .3s;
+border-bottom: 2px solid transparent;
+padding-bottom: 15px;
+padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.navbar li a:hover {
+color: #ddd;
+border-bottom: 2px solid #fff;
+}
+
+.navbar li:last-child a {
+
+background: #fff;
+color: #333;
+    border-bottom: 2px solid #fff;
+}
+
+
+
+.check-in, .check-out {
+display: inline-block;
+float: left;
+margin: 0 15px;
+padding: 15px;
+
+}
+
+.check-in label, .check-out label{
+  margin-right: 15px;
+}
+
+
+.button {
+width: 300px;
+margin-top: 23px;
+
+
+}
+
+.search {
+  display: inline-block;
+    float: right;
+    margin: 0 15px;
+    padding: 0 15px;
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: #fff;
+    height: 60px;
+    line-height: 60px;
+}
+
+.check-in, .check-out, .button {
+color: #fff;
+background-color:rgba(255, 255, 255, 0.452);
+border-radius: 5px;
+box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+
+
+}
+
+input[type="number"] {
+width: 80px;
+height: 30px;
+font-size: 16px;
+font-weight: bold;
+
+}
+
+input[type="date"] {
+font-size: 16px;
+font-weight: bold;
+height: 30px;
+text-transform: uppercase;
+
+}
+#Zakaria{
+  border-radius: 5px;
+  margin: -40 15px;
+  padding: 15px;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 15px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.452);
+  border-radius: 5px;
+  margin-right: 45%;
+  
+}
+
+#sort{
+  border-radius: 5px;
+  background-color:rgba(255, 255, 255, 0.452);
+  display: inline-block;
+}
+
+#hotel-name{
+  background-color:#fff;
+  margin: 0 15px;
+  padding: 15px;
+  color:black;
+  border-radius: 5px;
+}
+
+#filter-name-btn{
+  display: inline-block;
+    float: right;
+    margin: 0 15px;
+    padding: 0 15px;
+    color: #333;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: #fff;
+    height: 49;
+    
+
+  }
+#table{
+  border-collapse: collapse;
+  display: inline-block;
+  float: left;
+  margin: 0 15px;
+  padding: 15px;
+  margin-right: 15px;
+  }
+
+  
